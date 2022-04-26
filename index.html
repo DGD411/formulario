@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Compra tus entradas</h1>
+    <form action="">
+        <label for="fname">Nombre:</label><br>
+        <input type="text" id="fname" name="fname" value="Daniel"><br>
+        <label for="lname">Apellidos:</label><br>
+        <input type="text" id="lname" name="lname" ><br><br>
+      </form> 
+<br>
+     
+    <form action="">
+        <h3><label for="edad">Edad:</label></h3>
+        <input type="text" id="edad" name="edad" value="16-64"><br>
+      </form>
+<br>
+      <h3>Menor o Mayor</h3>
+      <form action="">
+          
+        <input type="radio" id="menor" name="fav_language" value="menor">
+        <label for="menor">Menor</label><br>
+        <input type="radio" id="mayor" name="fav_language" value="mayor">
+        <label for="mayor">Mayor</label><br>
+        
+      </form>
+      <br>
+      <h3>Selecciona tu entrada</h3>
+      <select name="entrada" id="entrada">
+        <optgroup label="Pequeña">
+            <option value="palomitas">Palomitas pequeña (4€)</option>
+            <option value="Bebida">Bebida pequeña (2€)</option>
+            <option value="menu-pequeño">Bebida pequeña + Palomitas pequeña (5€)</option>
+        </optgroup>
+        <optgroup label="Mediano">
+            <option value="palomitas">Palomitas mediana (7€)</option>
+            <option value="Bebida">Bebida mediana (4€)</option>
+            <option value="menu-mediano">Bebida mediana + Palomitas mediana (10€)</option>
+        </optgroup>
+        <optgroup label="Grande">
+            <option value="palomitas">Palomitas grande (10€)</option>
+            <option value="Bebida">Bebida grande (6€)</option>
+            <option value="menu-grande">Bebida grande + Palomitas grande (15€)</option>
+        </optgroup>
+        <optgroup label="Menus">
+            <option value="palomitas">Palomitas mediana + Bebida pequeña (7€)</option>
+            <option value="palomitas">Palomitas grande + Bebida pequeña (11'5€)</option>
+            <option value="palomitas">Palomitas pequeña + Bebida mediana (6€)</option>
+            <option value="palomitas">Palomitas grande + Bebida mmediana (12€)</option>
+            <option value="palomitas">Palomitas pequeña + Bebida grande (8€)</option>
+            <option value="palomitas">Palomitas mediana + Bebida grande ( 13€)</option>
+        </optgroup>
+        
+      </select>
+      <br>
+      <br>
+      <h3>Selecciona tu cine</h3>
+    
+      <form action="">
+
+        <input type="radio" id="Maquinista" >
+        <label for="menor">Maquinista</label><br>
+        <input type="radio" id="Cinematografia" >
+        <label for="mayor">Cinematografia</label><br>
+        <input type="radio" id="Magic" >
+        <label for="mayor">Magic</label><br>
+        <input type="radio" id="casa" >
+        <label for="mayor">En tu casa</label><br>
+      
+    </form>
+
+    </body>
+
+    </body>
+
+      <br>
+      <br>
+      <img src="imagen.jpg" alt="Portada de la pelicula">
+      <br>
+      <br>
+      <input  type="button" id="comprar" value="Comprar">
+</body>
+</html>
